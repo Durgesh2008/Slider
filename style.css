@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 80%;
+    height: 80vh;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+   
+}
+.slide {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+  transition:  1s;
+
+}
+.slide img{
+    width: 100%;
+    height: 50vh;
+}
+
+.caption{
+   font-size: 30px;
+   background-color: rgba(0, 0, 0, 0.399);
+   text-align: center;
+   height: 50px;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   color: white;
+}
+.btn{
+    position: relative;
+  top: 52vh;
+  left: 45%;
+  padding: 5px 10px;
+  margin:  0 12px;
+  cursor: pointer;
+}
