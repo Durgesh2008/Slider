@@ -1,2 +1,1 @@
-# Slider
-This is a slider
+ https://durgesh2008.github.io/Slider/
